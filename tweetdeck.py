@@ -8,7 +8,6 @@ import os
 import random
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
-# from selenium.webdriver.chrome.options import Options
 
 import json
 from selenium.webdriver.common.keys import Keys
@@ -17,18 +16,13 @@ import time
 with open('creds.json','r') as infile:
 	creds = json.load(infile)
 
-# options = Options()
 profile = webdriver.FirefoxProfile()
 profile.set_preference('security.sandbox.content.level', 2)
 # profile.set_preference('security.csp.enable', 0)
-# chrome_options = Options()
-# chrome_options.add_argument('--ignore-certificate-errors')
-# chrome_options.add_argument('-disable-web-security')
 driver = webdriver.Firefox(profile)
-# driver = webdriver.Chrome(chrome_options=chrome_options)
 
 # fp.set_preference("security.sandbox.content.level", 5)
-# driver.find_element_by_xpath('/html/body').send_keys(Keys.F11)
+
 
 #StaleElementError -> firefox
 def tweetdeck(): 
@@ -77,6 +71,11 @@ def tweetdeck():
 	  mutations.forEach(function(mutation) {
 	    console.log('0');
 	    new Audio('https://od.lk/s/NjZfMTMzNDQyNjFf/BassPercussion%20%28online-audio-converter.com%29.mp3').play();
+	  	/*var media = new Audio('https://od.lk/s/NjZfMTMzNDQyNjFf/BassPercussion%20%28online-audio-converter.com%29.mp3');
+		const playPromise = media.play();
+		if (playPromise !== null){
+		    playPromise.catch(() => { media.play(); })
+		}*/
 	  	//Base percussion opendrive link
 	  });
 	});
