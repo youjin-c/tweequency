@@ -12,4 +12,5 @@ I used [Selenium](https://www.guru99.com/selenium-tutorial.html) for this projec
 
 # Can I use it?
 Sure! you will see ID and password in the line 37 in tweetdeck.py file.<br/> Instead of <creds['ID']> and <creds['password']>, type your tweeter account and enjoy!
+You can also listen to specific hashtags you want.
 
