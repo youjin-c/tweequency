@@ -1,6 +1,7 @@
 #credentials
 creds.json
 *.json
+*.log
 
 #TOO BIG MOV FILES
 *.mov
