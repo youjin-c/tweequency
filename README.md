@@ -1,7 +1,6 @@
 # Tweequency
 Automative / generative music using your Tweetdeck account<br/>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=ZITR63gNswE
-" target="_blank"><img src="http://img.youtube.com/vi/ZITR63gNswE/0.jpg" 
+<a href="https://vimeo.com/user27717826/review/317746274/18ece97984" target="_blank"><img src="ScreenShot.png" 
 alt="IMAGE ALT TEXT HERE" width="300" border="10" /></a>
 
 # What is it? How does it work?
