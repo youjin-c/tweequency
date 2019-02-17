@@ -58,14 +58,16 @@ def tweetdeck():
 
 	var mutationObserver0 = new MutationObserver(function(mutations) {
 	  mutations.forEach(function(mutation) {
-	    console.log('0');
-	    new Audio('https://od.lk/s/NjZfMTMzNDQyNjFf/BassPercussion%20%28online-audio-converter.com%29.mp3').play();
+	    //console.log('0');
+	    //new Audio('https://od.lk/s/NjZfMTMzNDQyNjFf/BassPercussion%20%28online-audio-converter.com%29.mp3').play();//Base percussion opendrive link
 	  	/*var media = new Audio('https://od.lk/s/NjZfMTMzNDQyNjFf/BassPercussion%20%28online-audio-converter.com%29.mp3');
-		const playPromise = media.play();
-		if (playPromise !== null){
-		    playPromise.catch(() => { media.play(); })
-		}*/
-	  	//Base percussion opendrive link
+			const playPromise = media.play();
+			if (playPromise !== null){
+					playPromise.catch(() => { media.play(); })
+			}*/
+			var newCard = document.querySelectorAll('.js-chirp-container')[0].querySelectorAll('.stream-item')[0];
+			newCard.style.backgroundColor = '#f4c13f';
+			setTimeout(function(){newCard.style.backgroundColor='white';},3000)
 	  });
 	});
 	mutationObserver0.observe(document.querySelectorAll('.js-chirp-container')[0],{
@@ -79,9 +81,11 @@ def tweetdeck():
 
 	var mutationObserver1 = new MutationObserver(function(mutations) {
 	  mutations.forEach(function(mutation) {
-	    console.log('1');
-	    new Audio('https://od.lk/s/NjZfMTMzNDQyNTVf/DAWN%202.mp3').play();
-	    //DAWN
+	    //console.log('1');
+	    //new Audio('https://od.lk/s/NjZfMTMzNDQyNTVf/DAWN%202.mp3').play(); //Dawn file
+			var newCard = document.querySelectorAll('.js-chirp-container')[1].querySelectorAll('.stream-item')[0];
+			newCard.style.backgroundColor = '#3ff4ea';
+			setTimeout(function(){newCard.style.backgroundColor='white';},3000)
 	  });
 	});
 	mutationObserver1.observe(document.querySelectorAll('.js-chirp-container')[1],{
@@ -96,8 +100,10 @@ def tweetdeck():
 	var mutationObserver2 = new MutationObserver(function(mutations) {
 	  mutations.forEach(function(mutation) {
 	    console.log('2');
-	    new Audio('https://od.lk/s/NjZfMTMzNDQyNTdf/HandDrum.mp3').play();
-	    //HANDDRUM
+	    new Audio('https://od.lk/s/NjZfMTMzNDQyNTdf/HandDrum.mp3').play();//HANDDRUM
+			var newCard = document.querySelectorAll('.js-chirp-container')[2].querySelectorAll('.stream-item')[0];
+			newCard.style.backgroundColor = 'black';
+			setTimeout(function(){newCard.style.backgroundColor='white';},3000)
 	  });
 	});
 	mutationObserver1.observe(document.querySelectorAll('.js-chirp-container')[2],{
@@ -112,8 +118,10 @@ def tweetdeck():
 	var mutationObserver3 = new MutationObserver(function(mutations) {
 	  mutations.forEach(function(mutation) {
 	    console.log('3');
-	    new Audio('https://od.lk/s/NjZfMTMzNDQyNThf/M%26K%20Perc_3.mp3.mp3').play();
-	    //DM&K perc
+	    new Audio('https://od.lk/s/NjZfMTMzNDQyNThf/M%26K%20Perc_3.mp3.mp3').play();//DM&K perc
+			var newCard = document.querySelectorAll('.js-chirp-container')[3].querySelectorAll('.stream-item')[0];
+			newCard.style.backgroundColor = 'yellow';
+			setTimeout(function(){newCard.style.backgroundColor='white';},3000)
 	  });
 	});
 	mutationObserver1.observe(document.querySelectorAll('.js-chirp-container')[3],{
