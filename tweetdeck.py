@@ -37,6 +37,8 @@ def tweetdeck():
     ''',creds['ID'],creds['password'])	 #put your ID and password here!
 	time.sleep(3)
 
+	###comment these lines if you want to listen to pre-open tweetdeck columns### 
+	###from here#################################################################
 	driver.execute_script('''
 	document.querySelectorAll('a.link-complex')[8].click();
     ''')
@@ -53,6 +55,7 @@ def tweetdeck():
     document.querySelectorAll('a.link-complex')[6].click();
     ''')
 	time.sleep(1)
+	###to here###################################################################
 
 	driver.execute_script('''
 
