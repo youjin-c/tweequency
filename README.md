@@ -16,5 +16,11 @@ It is a Python automation bot for generative music.<br/>
 I used [Selenium](https://www.guru99.com/selenium-tutorial.html) and [TweetDeck](https://tweetdeck.twitter.com/) for this project, if you are interested in, go check the link!
 
 # Can I use it?
-Sure! you will see ID and password in the line 37 in the tweetdeck.py file.<br/> Instead of <creds['ID']> and <creds['password']>, type your Twitter account and enjoy!
-You can also listen to specific hashtags you want.
+Sure! you will see ID and password in the line 37 in the tweetdeck.py file.<br/> Instead of <creds['ID']> and <creds['password']>, type your Twitter account and enjoy!<br/>
+[hint]You can also listen to specific hashtags you want.<br/>
+Every requirement is installed in the Virtualenv folder(/venv), you can activate them with following commend.<br/>
+Tweequency runs on Python 3.6.<br/>
+```
+$source /venv/bin/activate
+$python tweetdeck.py
+```
