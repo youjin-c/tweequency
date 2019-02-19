@@ -7,10 +7,10 @@ alt="IMAGE ALT TEXT HERE" width="300" border="10" /></a><br/>
 # What is it? How does it work?
 It is a Python automation bot for generative music.<br/>
 
-1. Tweequency opens your TweetDeck with your Twitter account. You can put your Twitter ID and password in the line 37 in the tweetdeck.py file.<br/>
-2. TweetDeck has a Trending coloum for your account. Usually it opens a Trending column as default. <br/>
+1. Tweequency opens your TweetDeck with your Twitter account. You can put your Twitter ID and password in line 37 in the tweetdeck.py file.<br/>
+2. TweetDeck has a Trending column for your account. Usually, it opens a Trending column as default. <br/>
 3. Tweequency bot clicks the 7th to the 10th hashtag in the Trending column. You will have 4 new hashtag columns, so 5 columns in total.<br/>
-4. Everytime each hashtag column gets updated, it will play a drum sound and you can see which column is updated by thr color change.<br/>
+4. Every time each hashtag column gets updated, it will play a drum sound and you can see which column is updated by the color change.<br/>
 5. Enjoy the tweet orchestra!<br/>
 
 I used [Selenium](https://www.guru99.com/selenium-tutorial.html) and [TweetDeck](https://tweetdeck.twitter.com/) for this project, if you are interested in, go check the link!
